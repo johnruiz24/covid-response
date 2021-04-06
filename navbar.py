@@ -75,8 +75,8 @@ def Navbar(page = 'response'):
     style = {'height' : '2%', 'background-color' : corporate_colors['white']})
     if page == 'response':
         return navbar_response
-    else:
-        return navbar_tracker
+    #else:
+    #    return navbar_tracker
 
 
         
