@@ -63,4 +63,4 @@ def update_mobility_trends(country_trends):
     return get_line_plot(trends_final, country_name = country_trends)
 
 if __name__ == '__main__':
-    app.run_server(host='127.0.0.1',port=8050,debug=True)
+    app.run_server(debug=True)
