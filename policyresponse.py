@@ -66,9 +66,6 @@ modal_policy = html.Div([ # External row
 ],
 className = 'row sticky-top') # External row
 
-
-
-
 body_policy = html.Div([ # External row
     html.Div([], className = 'col-1'), # Blank 1 column
     html.Div([ # External 10-column
