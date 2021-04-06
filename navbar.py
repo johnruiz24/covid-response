@@ -54,7 +54,7 @@ def Navbar(page = 'response'):
     navbar_tracker = html.Div([
         dbc.NavbarSimple(
             children=[
-                #dbc.NavItem(dbc.NavLink(html.H4(children ='Tracker', style = navbarcurrentpage), href="/tracker")),
+                dbc.NavItem(dbc.NavLink(html.H4(children ='Tracker', style = navbarcurrentpage), href="/tracker")),
                 dbc.NavItem(dbc.NavLink(html.H4(children ="Policy Response", style = {'font_family':'Arial'}), href="/response"))
             ],
             sticky="top",
@@ -65,7 +65,7 @@ def Navbar(page = 'response'):
     navbar_response = html.Div([
         dbc.NavbarSimple(
             children=[
-                #dbc.NavItem(dbc.NavLink(html.H4(children ='Tracker', style = {'font_family':'Arial'}), href="/tracker")),
+                dbc.NavItem(dbc.NavLink(html.H4(children ='Tracker', style = {'font_family':'Arial'}), href="/tracker")),
                 dbc.NavItem(dbc.NavLink(html.H4(children ="Policy Response", style = navbarcurrentpage), href="/response"))
             ],
             sticky="top",
