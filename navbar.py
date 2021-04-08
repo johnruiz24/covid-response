@@ -50,6 +50,7 @@ def header():
     ], style = {'height' : '4%',
                 'background-color' : corporate_colors['dark-blue-grey']})
     return header
+
 def Navbar(page = 'response'):
     navbar_tracker = html.Div([
         dbc.NavbarSimple(
